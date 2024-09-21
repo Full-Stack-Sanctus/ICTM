@@ -1,0 +1,16 @@
+{
+  "name": "Flutter and Jupyter",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": ["Dart-Code.flutter", "ms-python.python"]
+    }
+  },
+  "postCreateCommand": "flutter doctor && pip install notebook",
+  "portsAttributes": {
+    "8888": {
+      "label": "Jupyter Notebook",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
