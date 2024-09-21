@@ -1,22 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
-
-class chnge extends StatefulWidget {
-  const chnge({super.key});
-
-  @override
-  State<chnge> createState() => _chngeState();
-}
-
-class _chngeState extends State<chnge> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.green,
-      body: Center(
-        child: Text('chnge'),
-      ),
-    );
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:919098da6e2a65350975b9607b3b0fbff7d55f794db987cbbd9fe06029f325bb
+size 499

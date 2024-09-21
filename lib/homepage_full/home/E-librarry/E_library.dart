@@ -1,17 +1,3 @@
-// ignore_for_file: prefer_const_constructors
-
-import 'package:flutter/material.dart';
-import 'package:roule_based_auth/homepage_full/home/E-librarry/screens.dart/splashscreen.dart';
-
-class E_library extends StatelessWidget {
-  const E_library({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return (MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: "Bookfores",
-      home: splashscreen(),
-    ));
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7e4f827dbbf9ed7f0e0cb0949703719a695854d3d9edc7c935f2a36df73b41e
+size 461

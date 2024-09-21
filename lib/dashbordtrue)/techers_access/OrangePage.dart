@@ -1,25 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
-
-class OrangePage extends StatefulWidget {
-  const OrangePage({super.key});
-
-  @override
-  State<OrangePage> createState() => _OrangePageState();
-}
-
-class _OrangePageState extends State<OrangePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.orange,
-      appBar: AppBar(
-        title: Text('Orange Page'),
-      ),
-      body: Center(
-        child: Text('This is the orange Page'),
-      ),
-    );
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec857cf78f7ef24ee85b25f03dd184bbcdb704efab079dbbf383fd687d2b6652
+size 613

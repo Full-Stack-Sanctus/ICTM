@@ -1,22 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
-
-class od_approve extends StatefulWidget {
-  const od_approve({super.key});
-
-  @override
-  State<od_approve> createState() => _od_approveState();
-}
-
-class _od_approveState extends State<od_approve> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.green,
-      body: Center(
-        child: Text('od approve'),
-      ),
-    );
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:782daaeec6b3864d065de7fc4c01c0e98bab15c9d9fb1279aa418a6e155c72db
+size 534

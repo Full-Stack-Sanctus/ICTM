@@ -1,25 +1,3 @@
-// ignore_for_file: prefer_const_constructors
-
-import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
-
-class error extends StatefulWidget {
-  const error({Key? key}) : super(key: key);
-
-  @override
-  State<error> createState() => _errorState();
-}
-
-class _errorState extends State<error> {
-  @override
-  Widget build(BuildContext context) {
-    return(
-      Scaffold(
-        body: Center(
-          child: Text("Error"),
-        ),
-      )
-    );
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:706d812f3182b26c5a167fb740ec41db3c2bf2f58ee61f25f8dffe890da724aa
+size 541

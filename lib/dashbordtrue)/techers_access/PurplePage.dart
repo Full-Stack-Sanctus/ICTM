@@ -1,25 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
-
-class PurplePage extends StatefulWidget {
-  const PurplePage({super.key});
-
-  @override
-  State<PurplePage> createState() => _PurplePageState();
-}
-
-class _PurplePageState extends State<PurplePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.red,
-      appBar: AppBar(
-        title: Text('Purple Page'),
-      ),
-      body: Center(
-        child: Text('This is the Purple Page'),
-      ),
-    );
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:23054ba2740c8a7256b1c7995611e5c0f8ddc906234bffb8278572d66869bd93
+size 610
